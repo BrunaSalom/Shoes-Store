@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
+    width: 100%;
+    height: 122px;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 39px;
+}
+
+header .container .menu {
+    display: flex;
+    gap: 23px;
+}
+
+header .container .menu h4 a{
+    color: #777;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* -- fim do header -- */
+
+section.banner img{
+    margin-top: 122px;
+    max-width: 100%;
+}
+
+/* -- fim do banner -- */
+
+h1 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+section.style .container .model {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
+
+section.style .container .model img,
+section.promotion .container .items img,
+section.featured .container img {
+    max-width: 100%;
+}
+
+/* -- fim do style -- */
+
+h2 {
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+}
+
+section.promotion .container {
+    background-color: #C2185B;
+    margin-top: 207px;
+    margin-bottom:163px;   
+    padding: 35px 0 99px;
+}
+
+section.promotion .container h2 {
+    margin-bottom: 54px;
+}
+
+
+section.promotion .container .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+section.promotion .container .items div {
+    background-color: #FFF;
+    padding-bottom: 30px;
+}
+
+p {
+    color: #000;
+    font-size: 16px;
+    margin: 1px 0 0 10px;
+}
+section.promotion .container .items div .item {
+    font-weight: 600;
+}
+
+section.promotion .container .items div .price {
+    font-weight: 400;
+}
+
+/* -- fim do promotion */
+
+section.featured .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+
+h3 {
+    color: #000;
+    font-size: 39px;
+    font-weight: 600;
+    margin-top: 0;
+
+}
+
+section.featured .container div {
+    display: flex;
+    flex-direction: column;
+    width: 513px;
+    max-width: 100%;
+}
+
+section.featured .container div button {
+    background-color: #C2185B;
+    border: none;
+    padding: 23px 85px;
+    color: #FFF;
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    max-width: 100%;
+}
+
+/* -- fim do featured  */
+
+footer {
+    margin-top: 116px;
+    max-width: 100%;
+    width: 100vw;
+    background-color: #C2185B;
+    padding-bottom: 31px;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .container .root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+footer .container article {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    width: 255px;
+    margin-top: -20px;
+    padding: 0;
+}
+
+ul {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    list-style: none;
+    margin-top: 56px;
+    padding: 0;
+    width: 200px;
+}
+
+li {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    margin: 0;
+    width: 240px;
+}
+
+footer .container .list a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* -- fim da página Home */
+
+
+main .container section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 77px;
+}
+
+main h3 {    
+    color: #575757;
+    margin-top: 177px;
+    margin-left: 123px;
+}
+
+main .container form {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 52px;
+}
+
+main .container form .full,
+main .container form .full input,
+main .container form .full select,
+main .container form .full textarea,
+main .container form .resume span {
+    color: #9B9B9B;
+    font-size: 18px;
+    font-weight: 400;
+
+    width: 538px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+main .container form .available p,
+main .container form .contact p {
+    color: #9B9B9B;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin: 0 0 12px;
+}
+
+main .container form .choice {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+main .container form .contact .choice {
+    gap: 65px;
+}
+
+main .container form .choice input {
+        margin-bottom: 15px;
+}
+
+main .container form .full textarea {
+    resize: none;
+    height: 78px;;
+}
+
+main .container form .resume input {
+    display: none;
+}
+
+main .container form .resume label {
+    background-color: #C4C4C4;
+    font-size: 14px;
+    color: #FFF;
+    padding: 2px 37px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+main .container form button {
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #C2185B;
+    padding : 5px 240px;
+    margin-top: 22px;
+    max-width: 100%;
+}
+
+
+main .container .lorem {
+    font-size: 16px;
+    font-weight: 400;
+    color:#575757;
+    width: 464px;
+    max-width: 100%;
+}
+
+/* --Fim do Trabalhe Cosnosco-- */
+
+@media (max-width: 600px) {
+    header .container .menu,
+    section.banner img {
+        display: none;
+    }
+    
+    header {
+        position: initial;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    section.featured h3 {
+        font-size: 30px;
+    }
+
+    main .container form .full,
+    main .container form .full input,
+    main .container form .full select,
+    main .container form .full textarea,
+    main .container form .resume span {
+        color: #9B9B9B;
+        font-size: 18px;
+        font-weight: 400;
+
+        width: 350px;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    main .container form .available p,
+    main .container form .contact p {
+        color: #9B9B9B;
+        font-size: 18px;
+        font-weight: 400;
+        width: 350px;
+        max-width: 100%;
+
+        margin: 0 0 12px;
+}
+
+    main .container form button {
+        border: none;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #C2185B;
+        padding : 5px 140px;
+        margin-top: 22px;
+        max-width: 100%;
+    }
+
+    main .container .lorem article {
+        font-size: 16px;
+        font-weight: 400;
+        color:#575757;
+        width: 350px;
+        max-width: 100%;
+    }
+}
